@@ -16,7 +16,8 @@ body {
 }
 
 .byline {
-
+  text-decoration: underline; /*2 underline */
+  
 }
 
 @media(min-width: 650px) {
