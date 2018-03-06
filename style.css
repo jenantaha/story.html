@@ -15,12 +15,11 @@ body {
   background-color: #8B1111
 }
 
+@media(min-width: 650px) {
 .left-column {
   float: left;
   width: 50%;
   overflow: auto;
-  padding: 0px;
-
 
 }
 
@@ -30,5 +29,6 @@ body {
   overflow: auto;
   padding-left: 20px;
 
+}
 
 }
