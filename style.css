@@ -9,10 +9,14 @@
   background-color: #FFF8DC;
   border: 2px solid black;
   padding: 30px;
-  margin: 10px; /*1*/
+  margin: 10px; /*1 added spacing */
 }
 body {
   background-color: #8B1111
+}
+
+.byline {
+
 }
 
 @media(min-width: 650px) {
