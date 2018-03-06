@@ -17,14 +17,75 @@ body {
 
 .byline {
   text-decoration: underline; /*2 underline */
-  
+  font-size: 18px; /*3 bigger font */
+  margin-bottom: 0px; /*4 remove space below byline */
+  color: gray; /*5 fontcolor change */
+  font-family: sans-serif; /*6 change fontstyle */
 }
 
+.publish-time {
+  margin-top: 4px; /*7 added spacing */
+  font-family: sans-serif; /*8 change font */
+  font-size: 14px; /*9 decrease font */
+}
+
+.story-text {
+  font-size: 14px; /*10 decrease font */
+}
+
+a {
+  text-decoration: none; /*11 remove underline */
+  color: #8B1111; /*12 font color */
+  font-weight: bold;  /*13 font bolder */
+}
+
+img {
+  box-shadow: 6px 2px black; /*14 shadow img*/
+  border: 2px solid gray; /*15 border img*/
+  width: 95%; /*16 img size*/
+}
+
+h1 {
+  color: #696969; /*17 headline color change*/
+  margin-bottom: 35px; /*18 added space below*/
+  font-size: 35px; /*19 increase font*/
+  text-shadow:  1px 1px gray; /*20 add shadow*/
+}
+
+h4 {
+  color: #696969; /*21 color change*/
+  font-size: 18px; /*22 increase font*/
+}
+
+li {
+  font-size: 15px; /*23 decrease font*/
+  font-style: italic; /*24 italic font*/
+}
+ol li {
+  text-decoration: underline; /*25 add line*/
+}
+
+.bio {
+  margin-bottom: 0px; /*26 removed space*/
+  font-size: 17px;/*27 increase font*/
+  font-family: sans-serif; /*28 change family*/
+  font-weight: bolder; /*29 bolder font*/
+  border-bottom:  2px dotted gray; /*30 add line*/
+  border-top:  2px dotted gray; /*31 add line*/
+  padding-bottom: 20px; /*32 add space around line*/
+  padding-top: 20px; /*33 add space around line*/
+}
+
+h2 {
+  color: #696969; /*34 heading color change */
+  font-size: 39px; /*35 increase font */
+}
 @media(min-width: 650px) {
 .left-column {
   float: left;
   width: 50%;
   overflow: auto;
+  list-style-position: inside;
 
 }
 
